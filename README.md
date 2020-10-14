@@ -13,6 +13,10 @@ This add node function creates a struct node consisting of information about the
 Similarly, xfree function not only calls the free function internally but also remove the node  related to that address from our linked list.
 Finally, the report leak function can be run at the end of test program to print out the list of memory nodes still not freed.
 
+Commands to run the MLD library with any C program(app.c in my case).
+
 ![alt text](https://github.com/gmt20/MemoryLeakDetectorC/blob/main/1.PNG)
+
+The leaked memory locations are logged in leak-info.txt file under /home directory.
 
 ![alt text](https://github.com/gmt20/MemoryLeakDetectorC/blob/main/2.PNG)
