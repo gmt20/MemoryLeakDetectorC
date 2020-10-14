@@ -17,6 +17,6 @@ Commands to run the MLD library with any C program(app.c in my case).
 
 ![alt text](https://github.com/gmt20/MemoryLeakDetectorC/blob/main/1.PNG)
 
-The leaked memory locations are logged in leak-info.txt file under /home directory.
+The leaked memory locations are logged in leak_info.txt file under /home directory.
 
 ![alt text](https://github.com/gmt20/MemoryLeakDetectorC/blob/main/2.PNG)
