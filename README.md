@@ -1,10 +1,12 @@
 # MemoryLeakDetectorC
 
 This is a small Memory Leak Detector library written in C. 
+
 Following files are included in the code:
-MLD.h - header file for the library
-MLD.c - file consisting of all the definitions of MLD functions
-app.c - file consisting of test cases for MLD library
+1)MLD.h - header file for the library
+2)MLD.c - file consisting of all the definitions of MLD functions
+3)app.c - file consisting of test cases for MLD library
+
 How it works? 
 First, any call to malloc, calloc or free (library functions used by C program from allocation and deallocation of memory) is replaced by xmallox, xcalloc and xfree.
 Second, the xmalloc and xcalloc internally calls the respective library functions to allocate memory and then calls the add_node function dfeined in MLD library.
