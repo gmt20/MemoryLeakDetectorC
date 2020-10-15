@@ -87,7 +87,7 @@ void add(Linked_List_Node mem_node)
 
 }
 //remove node
-void remove_mem_info (void * mem_ref)
+void remove_node (void * mem_ref)
 {
 	unsigned short index;
 	Linked_List  * list_head = ptr_start;
